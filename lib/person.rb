@@ -28,4 +28,20 @@ class Person
             @hygiene = hygiene
         end
     end
+
+    def happy?
+        if @happiness > 7
+            return true
+        else
+            return false
+        end
+    end
+
+    def clean?
+        if @hygiene > 7
+            return true
+        else
+            return false
+        end
+    end
 end
